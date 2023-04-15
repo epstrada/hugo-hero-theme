@@ -18,7 +18,7 @@
       {{ .Content }}
       <ul>
         {{ if .Site.Data.contact.phone }}
-        <li><strong>Phone: </strong>{{ .Site.Data.contact.phone }}</li>
+        <li><strong>Whatsapp: </strong>{{ .Site.Data.contact.phone }}</li>
         {{ end }}
         {{ if .Site.Data.contact.email }}
         <li><strong>Email: </strong><a href="mailto:{{ .Site.Data.contact.email }}">
@@ -29,7 +29,7 @@
         {{ end }}
       </ul>
       {{ if .Site.Data.contact.hours }}
-      <h4 class="mt-4">Business Hours</h4>
+      <h4 class="mt-4">Openingstijden</h4>
       <table class="table table-sm opening-hours-table">
         {{ range .Site.Data.contact.hours }}
         <tr>
